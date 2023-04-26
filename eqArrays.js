@@ -9,7 +9,6 @@ const eqArrays = (arr1, arr2) => {
     if(Array.isArray(arr1[i]) && Array.isArray(arr2[i])) {
       if(!eqArrays(arr1[i], arr2[i])) return false
     } else if (arr1[i] !== arr2[i] || typeof(arr1[i]) !== typeof(arr2[i])) {
-      // isEqual = false
       return false
     }
   }
