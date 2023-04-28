@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@nosaoasis/lotide",
   "version": "1.0.0",
   "description": "",
   "main": "assertArraysEqual.js",
@@ -10,7 +10,7 @@
     "test": "mocha"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nosa Agho",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",
